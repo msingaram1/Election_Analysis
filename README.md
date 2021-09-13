@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election
+A Colorado Board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election
 
 1. Calculate the total number of votes cast
 2. Get a complete list of candidates who received votes 
@@ -16,7 +16,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 
 
-## Summary
+## Summary of Election of Audit Results
  ~The analysis of the election show that
  - There were "369, 711" votes cast in the election.
 
@@ -37,11 +37,13 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
  - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
+ - The county with the highest number of votes was Denver
 
- ## Challenge Overview
 
-We read a .csv file of election data and pulled who the candidates were, what percentage and how many votes each candidate got and consequently determined who won the election. 
+ ## Overview of Election Audit
 
-## Challenge Summary
+We read a .csv file of election data and pulled who the candidates were, what percentage and how many votes each candidate got and consequently determined who won the election. Also the analysis of the county to county breakdown was also done. Denver was the county with the highest number of votes. 
 
-We we were able to determine that Diana Degette won with 73.8 of the vote. 
+## Election Audit Summary
+
+We we were able to determine that Diana Degette won with 73.8 of the vote and Denver was the county with the highest number of votes. This script can be used for any election given the .csv files with the election results is in the same format, with number of votes, county, and name in that order. If there is a different format, the script must be modified resepctively. Also, the sciprt can be modified to include items like voter demographics (gender, income, occupation, etc).
